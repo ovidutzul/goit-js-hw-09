@@ -27,6 +27,7 @@ startBtn.addEventListener('click', () => {
 stopBtn.addEventListener('click', () => {
   startBtn.style.backgroundColor = "green";
   startBtn.style.color = "black";
+  stopBtn.setAttribute('disabled', '');
   startBtn.removeAttribute('disabled');
   clearInterval(setColor);
 });
