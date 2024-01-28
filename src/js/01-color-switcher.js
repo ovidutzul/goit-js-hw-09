@@ -14,6 +14,8 @@ function getRandomHexColor() {
     .padStart(6, 0)}`;
 }
 
+let setColor = null;
+
 startBtn.addEventListener('click', () => {
   startBtn.style.backgroundColor = "red";
   startBtn.style.color = "gray";
